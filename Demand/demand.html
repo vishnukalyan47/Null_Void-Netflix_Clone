@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Request Movie Page</title>
+	<link rel="icon" href="nullvoid.ico" type="image/icon">
+	<link rel="stylesheet" type="text/css" href="demand.css">
+	<style>
+		::placeholder {
+         color: white;
+     }
+	</style>
+</head>
+<body>
+	<div class="logo">
+	<img src="nullvoid.ico" width="100" height="100">
+    </div>
+	<div class="box">
+		<h1>Request A Movie</h1>
+		<p>Please request your favorite movie.</p><br>
+	<form action ="connect.php" method="post">
+		<input type="text"  placeholder="Movie Name" name="name" style="color:white"><br><br>
+		<input type="text"  placeholder="Release Date" name="date" style="color:white"><br><br>
+		<input type="text"  placeholder="Language" name="lang" style="color:white"><br><br>
+		<input type="text"  placeholder="Main Cast" name="cast" style="color:white"><br><br>
+		<input type="submit"  value="Confirm" >
+	</form>
+
+</body>
+</html>

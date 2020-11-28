@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("dimage.jpg");
+	background-size:cover;
+	background-position: center; 
+	background-attachment: fixed;
+	font-family: sans-serif;
+	opacity: 0.8;
+}
+
+.logo{
+	opacity: 1;
+}
+
+.box{
+	width: 420px;
+	height: 470px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	
+}
+
+h1{
+	margin-left: 125px;
+    margin-top: 30px;
+	font-size: 22px
+}
+
+p{
+	margin-left: 90px;
+}
+
+.box input[type="text"]
+{
+	margin-left: 110px;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	background: gray;
+	outline: black;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+
+}
+
+.box input[type="submit"]
+{
+	background-color: red;
+    border: none;
+    color: white;
+    margin-left: 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    width: 210px;
+    cursor: pointer;
+
+}
